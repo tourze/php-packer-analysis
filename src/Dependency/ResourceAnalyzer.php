@@ -4,8 +4,8 @@ namespace PhpPacker\Analysis\Dependency;
 
 use PhpPacker\Analysis\Dependency\FileSystem\FileSystemInterface;
 use PhpPacker\Analysis\Dependency\FileSystem\RealFileSystem;
+use PhpPacker\Analysis\Visitor\UseResourceCollectorVisitor;
 use PhpPacker\Ast\AstManagerInterface;
-use PhpPacker\Visitor\UseResourceCollectorVisitor;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 

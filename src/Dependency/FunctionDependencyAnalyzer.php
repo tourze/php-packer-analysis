@@ -3,8 +3,8 @@
 namespace PhpPacker\Analysis\Dependency;
 
 use PhpPacker\Analysis\ReflectionServiceInterface;
+use PhpPacker\Analysis\Visitor\UseFunctionCollectorVisitor;
 use PhpPacker\Ast\AstManagerInterface;
-use PhpPacker\Visitor\UseFunctionCollectorVisitor;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 

@@ -2,10 +2,6 @@
 
 namespace PhpPacker\Analysis\Visitor;
 
-use PhpPacker\Visitor\UseClassCollectorVisitor;
-use PhpPacker\Visitor\UseFunctionCollectorVisitor;
-use PhpPacker\Visitor\UseResourceCollectorVisitor;
-
 /**
  * 默认访问者工厂实现
  */

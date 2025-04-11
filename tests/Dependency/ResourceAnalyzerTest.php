@@ -4,8 +4,8 @@ namespace PhpPacker\Analysis\Tests\Dependency;
 
 use PhpPacker\Analysis\Dependency\ResourceAnalyzer;
 use PhpPacker\Analysis\Tests\Visitor\MockResourceVisitor;
+use PhpPacker\Analysis\Visitor\UseResourceCollectorVisitor;
 use PhpPacker\Ast\AstManagerInterface;
-use PhpPacker\Visitor\UseResourceCollectorVisitor;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;

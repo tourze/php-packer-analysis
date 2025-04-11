@@ -3,9 +3,9 @@
 namespace PhpPacker\Analysis\Tests\Visitor;
 
 use PhpPacker\Analysis\Visitor\DefaultVisitorFactory;
-use PhpPacker\Visitor\UseClassCollectorVisitor;
-use PhpPacker\Visitor\UseFunctionCollectorVisitor;
-use PhpPacker\Visitor\UseResourceCollectorVisitor;
+use PhpPacker\Analysis\Visitor\UseClassCollectorVisitor;
+use PhpPacker\Analysis\Visitor\UseFunctionCollectorVisitor;
+use PhpPacker\Analysis\Visitor\UseResourceCollectorVisitor;
 use PHPUnit\Framework\TestCase;
 
 class DefaultVisitorFactoryTest extends TestCase
