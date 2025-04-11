@@ -1,0 +1,29 @@
+{
+  "name": "tourze/php-packer-analysis",
+  "description": "代码分析工具，用于PHP代码的依赖分析、资源查找、类关系分析等",
+  "type": "library",
+  "require": {
+    "php": "^8.1",
+    "tourze/php-packer-ast": "0.0.*",
+    "psr/log": "^3|^2|^1",
+    "yiisoft/json": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0",
+    "phpstan/phpstan": "^2.1"
+  },
+  "scripts": {
+    "phpstan": "phpstan analyse src -l 1"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PhpPacker\\Analysis\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhpPacker\\Analysis\\Tests\\": "tests/"
+    }
+  }
+}
