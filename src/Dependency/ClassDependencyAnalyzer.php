@@ -75,7 +75,7 @@ class ClassDependencyAnalyzer
         $this->logger->debug('Analyzing must class dependencies');
 
         $graph = $this->buildMustDependencyGraph();
-        $this->debugGraphToFile($graph, 'latest-mustGraph.json');
+//        $this->debugGraphToFile($graph, 'latest-mustGraph.json');
 
         // 使用拓扑排序获取最终顺序
         $result = $this->graphAnalyzer->topologicalSort($graph, true, true);
@@ -98,7 +98,7 @@ class ClassDependencyAnalyzer
         $this->logger->debug('Analyzing used class dependencies');
 
         $graph = $this->buildUsedDependencyGraph();
-        $this->debugGraphToFile($graph, 'latest-usedGraph.json');
+//        $this->debugGraphToFile($graph, 'latest-usedGraph.json');
 
         $processedSet = array_flip($processedFiles); // 用于快速查找
 

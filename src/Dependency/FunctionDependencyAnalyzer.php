@@ -84,7 +84,7 @@ class FunctionDependencyAnalyzer
             }
         }
 
-        file_put_contents('latest-funcGraph.json', \Yiisoft\Json\Json::encode($funcGraph));
+//        file_put_contents('latest-funcGraph.json', \Yiisoft\Json\Json::encode($funcGraph));
 
         $result = array_unique($funcGraph);
         $this->logger->debug('Function dependencies analysis completed', [
